@@ -8,7 +8,11 @@ export default {
     backgroundColor: theme => ({
       ...theme('colors'),
     }),
-    extend: {},
+    extend: {
+      fontFamily: {
+        'ibm-plex': ['IBM Plex Sans', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
