@@ -37,12 +37,12 @@ export default function Body() {
                     </div>
 
                     <div className='flex flex-col gap-[16px]'>
-                        <button className='bg-[#191826] h-[61px] rounded-[12px] flex justify-center items-center gap-[8px]'>
+                        <button className='bg-[#191826] h-[61px] rounded-[12px] flex justify-center items-center gap-[8px] hover:bg-[#66E2DC] transition-colors ease-in-out duration-300'>
                             <img src={Assets.iconApple} alt="" />
                             <span className='font-bold text-[18px] leading-[32px] tracking-[-0.18px]'>iOS Download</span>
                         </button>
 
-                        <button className='bg-[#FCFAF9] h-[61px] rounded-[12px] flex justify-center items-center gap-[8px]'>
+                        <button className='bg-[#FCFAF9] h-[61px] rounded-[12px] flex justify-center items-center gap-[8px] hover:bg-[#FFB964] transition-colors ease-in-out duration-300'>
                             <img src={Assets.iconAndroid} alt="" />
                             <span className='font-bold text-[#191826] text-[18px] leading-[32px] tracking-[-0.18px]'>Android Download</span>
                         </button>
