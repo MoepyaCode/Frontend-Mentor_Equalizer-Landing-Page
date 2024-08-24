@@ -21,6 +21,7 @@ export default function App() {
 
       {screenView.mobile && <img className='absolute top-[-104px] right-[-65.4px] min-w-[281.4px] min-h-[480]' src={Assets.bgMainMobile} alt="" /> }
       {screenView.tablet && <img className='object-contain absolute top-[112px] right-[39px]' src={Assets.bgMainTablet} alt="" />}
+      {screenView.desktop && <img className='object-contain absolute top-[-112px] left-[-146px]' src={Assets.bgMainDesktop} alt="" />}
       {(screenView.tablet || screenView.desktop) && <img className='object-contain max-h-[400px] absolute top-[-32px] right-[-35.67px]' src={Assets.bgPattern1} alt="" />}
 
       <Header />
