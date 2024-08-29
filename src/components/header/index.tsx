@@ -1,4 +1,3 @@
-import React from 'react'
 import { Assets } from '../../assets'
 
 export default function Header() {
