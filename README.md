@@ -1,4 +1,4 @@
-# Title
+# Equalizer landing page
 
 <!-- add description of project -->
 
